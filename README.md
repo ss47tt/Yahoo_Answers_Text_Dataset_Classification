@@ -36,16 +36,16 @@ Question Content
 
 Best Answer
 
-5. I did preprocessing of text data for train and test csv. First, I combined "Title", "Content", "Answer" into 1 "text" column.
+4. I did preprocessing of text data for train and test csv. First, I combined "Title", "Content", "Answer" into 1 "text" column.
 
    Then, I did contractions processing, lowercasing, remove numbers and punctuations, tokenize, remove stopwords, and lemmatize.
 
    Finally, I saved the cleaned csv.
 
-6. I dropped all the empty text row, and did TfidfVectorizer for max_features=100000, and saved the model.
+5. I dropped all the empty text row, and did TfidfVectorizer for max_features=100000, and saved the model.
 
-7. For train dataset, I did training and validating split, and got the validation accuracy of 70 percent on Naive Bayes model.
+6. For train dataset, I did training and validating split, and got the validation accuracy of 70 percent on Naive Bayes model.
 
-8. For test dataset, I did training and validating split, and got the validation accuracy of 68 percent on Naive Bayes model.
+7. For test dataset, I did training and validating split, and got the validation accuracy of 68 percent on Naive Bayes model.
 
-9. For train and test datasets, I combined the TfidfVectorizer for train and test datasets, and got test accuracy of 70 percent on Naive Bayes model, abd 72 percent on logistic regression model.
+8. For train and test datasets, I combined the TfidfVectorizer for train and test datasets, and got test accuracy of 70 percent on Naive Bayes model, abd 72 percent on logistic regression model.
