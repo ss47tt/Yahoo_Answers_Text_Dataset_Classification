@@ -46,4 +46,6 @@ Best Answer
 
 7. For train dataset, I did training and validating split, and got the validation accuracy of 70 percent on Naive Bayes model.
 
-8. For test dataset, I did use the train dataset and test dataset to do testing accuracy and got about 10 percent on Naive Bayes model.
+8. For test dataset, I did training and validating split, and got the validation accuracy of 68 percent on Naive Bayes model.
+
+9. For train and test datasets, I combined the TfidfVectorizer for train and test datasets, and got test accuracy of 70 percent on Naive Bayes model, abd 72 percent on logistic regression model.
